@@ -1,0 +1,111 @@
+.home{
+  height:100vh;
+  width: 100vw;
+ 
+  .wrapper{
+    width:100%;
+    position: absolute;
+    display: flex;
+    padding: 0px 20px 0px 20px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    margin-top: 100px;
+    h4{
+      font-size: 15px;
+    }
+    .searchdiv{
+      height:110px;
+      overflow-x:auto;
+      overflow-y:auto;
+      color:red;
+      table{
+        span{
+          font-weight: bold;
+          color: #04AA6D;
+        }
+        width: 100%;
+        thead{
+        text-align: left;
+        background-color: #04AA6D;
+         color: white;
+         font-size: 18px;
+         font-weight: bold;
+         font-family: cursive;
+        }
+        tr{color:black}
+        tr:nth-child(even){background-color: #f2f2f2;}
+         tr:hover {background-color: #ddd;}
+        td {
+         border-bottom: 1px solid #ddd;
+         padding: 15px;
+         text-align: left;
+         
+       }
+      
+   }
+   
+     }
+    h1{
+      
+      font-size: 25px;
+      font-family: cursive;
+      
+    }
+    
+      .formdiv{
+        height: 150px;
+         background:var(--main-color);
+         display: flex;
+         flex-direction: row;
+         align-items: center;
+         justify-content: space-around;
+        
+         input{
+           height: 60px;
+           width:270px;
+           border:none;
+           font-size: 25px;
+           font-weight: 500;
+           padding-left:20px;
+           background:white;
+           border-radius: 5px 0px 0px 5px;
+           &::placeholder{
+           color: lightgray;
+           font-size: 25px;
+           
+           }
+         }
+         button{
+          width:50px;
+           height: 60px;
+           color: darkred;
+           background:white;
+           border:none;
+           font-size: 40px;
+           font-weight: bold;
+           border-radius: 0px 5px 5px 0px;
+           cursor: pointer;
+      
+         }
+        }
+
+        @media (min-width: 768px) {
+          h1{
+            font-size: 40px;
+          }
+          .formdiv{
+           input{
+             width:400px;
+           }
+           button{
+             width: 50px;
+           }
+         }
+        }
+      }
+     
+}
+
+

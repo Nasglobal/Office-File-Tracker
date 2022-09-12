@@ -1,0 +1,70 @@
+.editbutton{
+  border-radius: 5px;
+      border: 1px solid transparent;
+      color: white;
+      text-decoration: none;
+      text-align: center;
+      padding: 5px;
+      background: grey;
+      &:hover {
+      background:darkred;
+      border-color: white;
+      color:white;
+}
+}
+
+
+.deleteBtn{
+      border: 1px solid transparent;
+      color: white;
+      text-decoration: none;
+      text-align: center;
+      padding: 5px;
+      background: darkred;
+      &:hover {
+      background:gray;
+      border-color: white;
+      color:white;
+}
+}
+
+ form{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    
+      select{
+        height:30px;
+        padding: 2px;
+        border: 1px solid lawngreen;
+        cursor: pointer;
+      }
+  button{
+    border-radius: 5px;
+    border: 1px solid transparent;
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem;
+    background: darkgreen;
+    &:hover {
+    background:gray;
+    border-color: white;
+    color:white;
+  }
+  }
+}
+
+@media (min-width: 768px) {
+  
+       
+    }
+
+    
+  
+  
+
+
+
+

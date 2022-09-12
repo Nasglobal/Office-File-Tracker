@@ -1,0 +1,7 @@
+{
+  "env":{
+    "DB_USER": "nasglobal",
+    "DB_PASSWORD": "chime1989",
+    "DB_NAME": "fileTracker"
+  }
+}
