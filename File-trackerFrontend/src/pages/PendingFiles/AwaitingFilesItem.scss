@@ -1,0 +1,38 @@
+
+  .accept{
+    border: 1px solid transparent;
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem;
+    background: darkgreen;
+    &:hover {
+    background:lightgreen;
+    border-color: white;
+    color:white;
+  }
+  }
+  .reject{
+    border: 1px solid transparent;
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem;
+    background: darkred;
+    &:hover {
+    background:red;
+    border-color: white;
+    color:white;
+  }
+  }
+
+@media (min-width: 768px) {
+  
+       
+    }
+
+    
+  
+  
+
+
+
+

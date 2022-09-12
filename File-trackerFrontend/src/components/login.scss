@@ -1,0 +1,65 @@
+
+  .formdiv{
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 auto;
+    padding: 10px;
+   
+    
+      h4{
+      color:red;
+      font-size: 18px;
+      font-family: cursive;
+      }
+     
+     
+     input{
+       height: 45px;
+       width:250px;
+       border:1px solid darkred;
+       font-size: 20px;
+       font-weight: 300;
+       padding-left:10px;
+       background:white;
+       border-radius: 5px;
+       &::placeholder{
+       color: lightgray;
+       font-size: 20px;
+       }
+     }
+     button{
+       height: 45px;
+       width:250px;
+       color: white;
+       background:darkred;
+       border:none;
+       font-size: 15px;
+       font-weight: bold;
+       border-radius: 5px;
+       cursor: pointer;
+     }
+     @media (min-width: 768px) { 
+       
+     input{
+      height: 50px;
+      width:350px;
+     }
+     button{
+      height: 50px;
+      width:360px;
+     }
+       
+    }
+    }
+    
+.closebutton{
+  margin-left:120px;
+    }
+    @media (min-width: 768px) { 
+      .closebutton{
+        margin-left:280px;
+      }
+    }

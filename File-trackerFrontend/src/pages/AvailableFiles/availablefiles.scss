@@ -1,0 +1,92 @@
+.availablefiles{
+  margin: 130px 40px 0px 40px;
+
+   .tablediv{
+    overflow-x:auto;
+    table{
+      thead{
+      text-align: left;
+      background-color: #04AA6D;
+       color: white;
+       font-size: 18px;
+       font-weight: bold;
+      }
+      tr:nth-child(even){background-color: #f2f2f2;}
+       tr:hover {background-color: #ddd;}
+      td {
+       border-bottom: 1px solid #ddd;
+       padding: 15px;
+       text-align: left;
+     }
+    
+ }
+
+   }
+}
+.formEdit{  
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  margin: 0 auto;
+  padding: 10px;
+   
+  select{
+    height: 45px;
+    width:400px;
+    border: 1px solid darkred;
+    font-size: 20px;
+    font-weight: 300;
+    padding-left:10px;
+    background:white;
+    border-radius: 5px;
+  }
+  
+  input{
+    height: 45px;
+    width:400px;
+    border: 1px solid darkred;
+    font-size: 20px;
+    font-weight: 300;
+    padding-left:10px;
+    background:white;
+    border-radius: 5px;
+    &::placeholder{
+    color: lightgray;
+    font-size: 20px;
+    }
+    
+  }
+  textarea{
+    border: 1px solid darkred;
+    font-size: 20px;
+    font-weight: 300;
+    padding-left:10px;
+    background:white;
+    border-radius: 5px
+  }
+  button{
+    height: 45px;
+    width:398px;
+    color: white;
+    background:darkred;
+    border:none;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  @media (min-width: 768px) { 
+  input{
+   height: 50px;
+   width:400px;
+  }
+  button{
+   height: 50px;
+   width:398px;
+  }
+    
+ 
+ }
+ }

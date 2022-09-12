@@ -1,0 +1,24 @@
+.edit{
+  border: 1px solid transparent;
+  color: white;
+  text-decoration: none;
+  padding: 0.5rem;
+  background: grey;
+  &:hover {
+  background:lightgreen;
+  border-color: white;
+  color:white;
+}
+}
+.delete{
+  border: 1px solid transparent;
+  color: white;
+  text-decoration: none;
+  padding: 0.5rem;
+  background: darkred;
+  &:hover {
+  background:red;
+  border-color: white;
+  color:white;
+}
+}
